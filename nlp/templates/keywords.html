@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Contact us</title>
+</head>
+<body>
+    <h1>KeyWords</h1>
+    {% if sf.errors %}
+         <p style="color: red;">
+            Please correct the error{{ sf.errors|pluralize }} below.
+        </p>
+    {% endif %}
+    <form action="" method="post">{% csrf_token %}
+        <table>
+            {% autoescape off %}
+            {{ sf.as_table }}
+            {% endautoescape %}
+        </table>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

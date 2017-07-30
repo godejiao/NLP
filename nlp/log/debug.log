@@ -1,0 +1,66 @@
+2017-07-24 16:20:36,413 [Thread-16:140189085546240] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /keywords/
+Traceback (most recent call last):
+  File "/home/godejiao/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/godejiao/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/godejiao/.local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/godejiao/djangoproject/nlp /nlp_api/views.py", line 162, in textKeywords
+    text = request.POST.get('text',None).encode('utf-8')#str
+AttributeError: 'NoneType' object has no attribute 'encode'
+2017-07-24 16:20:45,671 [Thread-17:140189085546240] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /keywords/
+Traceback (most recent call last):
+  File "/home/godejiao/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/godejiao/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/godejiao/.local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/godejiao/djangoproject/nlp /nlp_api/views.py", line 162, in textKeywords
+    text = request.POST.get('text',None).encode('utf-8')#str
+AttributeError: 'NoneType' object has no attribute 'encode'
+2017-07-24 16:21:08,255 [Thread-18:140189085546240] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /keywords/
+Traceback (most recent call last):
+  File "/home/godejiao/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/godejiao/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/godejiao/.local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/godejiao/djangoproject/nlp /nlp_api/views.py", line 162, in textKeywords
+    text = request.POST.get('text',None).encode('utf-8')#str
+AttributeError: 'NoneType' object has no attribute 'encode'
+2017-07-24 16:21:16,773 [Thread-19:140189085546240] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /keywords/
+Traceback (most recent call last):
+  File "/home/godejiao/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/godejiao/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/godejiao/.local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/godejiao/djangoproject/nlp /nlp_api/views.py", line 162, in textKeywords
+    text = request.POST.get('text',None).encode('utf-8')#str
+AttributeError: 'NoneType' object has no attribute 'encode'
+2017-07-24 16:21:25,013 [Thread-20:140189085546240] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /keywords/
+Traceback (most recent call last):
+  File "/home/godejiao/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/godejiao/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/godejiao/.local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/godejiao/djangoproject/nlp /nlp_api/views.py", line 162, in textKeywords
+    text = request.POST.get('text',None).encode('utf-8')#str
+AttributeError: 'NoneType' object has no attribute 'encode'
+2017-07-24 16:25:55,540 [Thread-7:140042301560576] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /keywords/
+Traceback (most recent call last):
+  File "/home/godejiao/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/godejiao/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/godejiao/.local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/godejiao/djangoproject/nlp /nlp_api/views.py", line 162, in textKeywords
+    text = request.POST.get('text',None).encode('utf-8')#str
+AttributeError: 'NoneType' object has no attribute 'encode'
